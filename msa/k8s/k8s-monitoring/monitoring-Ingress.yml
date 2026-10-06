@@ -30,7 +30,7 @@ spec:
                 port:
                   number: 9090
 
-    - host: grafana.wecnedu.com-tls
+    - host: grafana.wecnedu.com
       http:
         paths:
           - path: /
