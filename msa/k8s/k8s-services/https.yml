@@ -21,16 +21,16 @@ spec:
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: server-aws-esk-com-tls
+  name: server.wecnedu.com-tls
   namespace: soldesk
 spec:
-  secretName: server-aws-esk-com-tls
+  secretName: server.wecnedu.com-tls
   duration: 2160h #90day
   renewBefore: 360h #before 15day
   issuerRef:
     name: my-issuer
     kind: ClusterIssuer
-  commonName: server.aws-esk.com
+  commonName: server.wecnedu.com
   dnsNames:
-  - server.aws-esk.com
+  - server.wecnedu.com
 
