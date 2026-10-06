@@ -16,5 +16,5 @@ spec:
     kind: ClusterIssuer
 
   dnsNames:
-    - prometheus.aws-esk.com
-    - grafana.aws-esk.com
+    - prometheus.wecnedu.com
+    - grafana.wecnedu.com

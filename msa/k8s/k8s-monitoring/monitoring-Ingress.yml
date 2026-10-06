@@ -15,7 +15,7 @@ spec:
   tls:
     - hosts:
         - prometheus.wecnedu.com
-        - grafana.wecnedu.com-tls
+        - grafana.wecnedu.com
       secretName: grafana.wecnedu.com-tls
 
   rules:
