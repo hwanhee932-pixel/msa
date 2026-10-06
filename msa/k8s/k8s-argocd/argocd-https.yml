@@ -1,0 +1,16 @@
+
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: argo-server.wecnedu.com-tls
+  namespace: argocd
+spec:
+  secretName: argo-server.wecnedu.com-tls
+  duration: 2160h #90day
+  renewBefore: 360h #before 15day
+  issuerRef:
+    name: my-issuer
+    kind: ClusterIssuer
+  commonName: argo.server.wecnedu.com
+  dnsNames:
+  - argo.server.wecnedu.com
