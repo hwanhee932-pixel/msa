@@ -70,6 +70,8 @@ jobs:
               - 'msa/ordering/**'
             product:
               - 'msa/product/**'
+            frontend:
+              - 'msa/frontend/**'          
 
       # 변경 없으면 종료
       - name: stop if no service changed
