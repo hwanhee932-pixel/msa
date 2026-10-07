@@ -9,7 +9,7 @@ spec:
   # 인증서 서버 주소. 해당 서버의 리소스를 통해 인증서 발행
     server: https://acme-v02.api.letsencrypt.org/directory
   # 인증서 만료 또는 갱신 필요시 알람 email
-    email: konan7979@gmail.com
+    email: hwanhee932@gmail.com
     privateKeySecretRef:
       name: my-issuer
     solvers:
